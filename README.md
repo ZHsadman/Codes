@@ -1,10 +1,10 @@
 # CS:GO
 ## myconfig.cfg:
 unbindall
-        bind "1" "slot1"
-        bind "2" "slot2"
-        bind "3" "slot3"
-bind "4" "slot8"
+bind "1" "slot1"  
+bind "2" "slot2"  
+bind "3" "slot3"  
+bind "4" "slot8"  
 bind "5" "slot7"
 bind "6" "slot6"
 bind "7" "slot10"
