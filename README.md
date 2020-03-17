@@ -1,9 +1,9 @@
 # CS:GO
-myconfig.cfg:
+## myconfig.cfg:
 unbindall
-bind "1" "slot1"
-bind "2" "slot2"
-bind "3" "slot3"
+        bind "1" "slot1"
+        bind "2" "slot2"
+        bind "3" "slot3"
 bind "4" "slot8"
 bind "5" "slot7"
 bind "6" "slot6"
@@ -450,8 +450,7 @@ xbox_throttlebias "100"
 xbox_throttlespoof "200"
 zoom_sensitivity_ratio_joystick "1.0"
 zoom_sensitivity_ratio_mouse "1.0"
------------------------------------------------------------------------------------
-training.cfg:
+## training.cfg:
 sv_cheats 1
 mp_roundtime_defuse 60
 mp_autoteambalance 0
