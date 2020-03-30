@@ -15,8 +15,20 @@ public class EquationSolver
         double b = in.nextDouble();
         System.out.println("c=");
         double c = in.nextDouble();
-        double x1 = (-b+sqrt(pow(b,2)-4*a*c))/2*a;
-        double x2 = (-b-sqrt(pow(b,2)-4*a*c))/2*a;
-        System.out.println("The solution of the equation are: x1 = "+ x1 +", x2 = "+ x2);
+        if (pow(b,2)-4*a*c < 0)
+        {
+            System.out.println("The equation has no real number solution.");
+        }
+        else if (pow(b,2)-4*a*c == 0)
+        {
+            double x = -b/(2*a);
+            System.out.println("The equation has 2 same roots: x = " + x);
+        }
+        else
+        {
+            double x1 = (-b+sqrt(pow(b,2)-4*a*c))/2*a;
+            double x2 = (-b-sqrt(pow(b,2)-4*a*c))/2*a;
+            System.out.println("The solutions of the equation are: x1 = "+ x1 +", x2 = "+ x2);
+        }
     }
 }
